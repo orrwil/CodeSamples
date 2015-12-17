@@ -1,0 +1,45 @@
+h2 {
+  text-align: center;
+}
+
+.lhs_column {
+  float: left;
+  clear: bottom;
+  width: 50%;
+}
+
+.rhs_column {
+  float: left;
+  clear: bottom;
+  width: 50%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+#header {
+  background: #ededed;
+  padding: 10px;
+}
+
+#content {
+  padding-bottom: 100px;
+  /* Height of the footer element */
+}
+
+#footer {
+  background: #ffab62;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
