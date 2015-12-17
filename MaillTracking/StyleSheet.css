@@ -1,0 +1,518 @@
+/* START OF PAGE TAGS */
+body
+{
+	font-family:MS Sans Serif;
+	font-size: small;	/* eod - ie8 fix - was xx-small - march 2012 */
+	background-color:white;
+	color:#666666;
+	margin:0;
+	padding:0;
+}
+input
+{
+	font-size: 1em;
+}
+/* END OF PAGE TAGS */
+
+
+/* START OF HEADER TAGS */
+.header
+{
+	width:100%;
+	height: 80px; /* eod - ie8 fix - added - march 2012 */	
+	background-position:top;
+	background-color:#142062;
+}
+
+.headerLeft
+{
+	float:left;
+}
+
+.headerRight
+{
+	float:right;
+	color:White;
+	font-weight:bold;
+	font-size: 1.2em;	 /* eod - ie8 fix - was small - march 2012 */
+	text-align:right;
+	padding: 0 5px 0 0; /* eod - ie8 fix - added - march 2012 */
+}
+.clear /* eod - ie8 fix - added - march 2012 */
+{
+	clear: both;
+}
+/* END OF HEADER TAGS */
+
+
+/* START OF NAVIGATION MENU TAGS */
+.navigationMenu
+{
+	float:left;
+	width:13%;
+	padding-top:2px;
+	padding-bottom:15px;
+	padding-left:10px;
+	margin:5px;
+}
+
+.navigationMenuHeader
+{
+	background-color:#142062;
+	color:#FFFFFF;
+	text-align:center;
+	font-weight:bold;
+	height:20px;
+}
+
+.navigationMenuBody
+{
+	background-color:#FFFFFF;
+	border-bottom:2px solid #142062;
+	border-left:1px solid #142062;
+	border-right:1px solid #142062;
+}
+
+.navigationMenuOptionList
+{
+	margin-left:5px;
+	color: #666666;
+	text-align:left;
+	padding:0 0 0 6px;
+}
+
+.navigationMenuOptionList a:link
+{
+	text-decoration:none;
+	color:#666666;
+}
+
+.navigationMenuOptionList a:visited
+{
+	text-decoration:none;
+	color:#666666;
+}
+
+.navigationMenuOptionList a:hover
+{
+	text-decoration:underline;
+	color:#666666;
+}
+/* END OF NAVIGATION MENU TAGS */
+
+
+/* START OF WORK AREA TAGS */
+.fullPage
+{
+	width:100%;
+}
+
+.mainPage
+{
+	background-color:White;
+	padding-top:2px;
+	padding-left:3px;
+	padding-bottom:15px;
+	padding-right:15px;
+	height:420px;
+	float:left;
+	margin:5px;
+}
+
+.titleRow
+{
+	height:30px;
+}
+
+.titleRowLeft
+{
+	float:left;
+	color:#142062;
+	font-weight:bold;
+	font-size: 1.2em; /* eod - ie8 fix - was medium - march 2012 */
+	text-align:left;
+	padding: 0 5px 0 0;	/* eod - ie8 fix - added - march 2012 */
+}
+
+.titleRowRight
+{
+	float:right;
+	text-align:right;
+}
+
+.idleTab
+{
+	width: 300px;
+	text-align:center;
+	border: solid 2px #fff;
+	background: #F3F3F3;
+}
+.currentTab
+{
+	border: solid 1px #fff;
+	border-bottom:none 0;
+	font-size:larger;
+	font-weight:bolder;
+	text-decoration:underline;
+	background:#C9C9C9;
+	padding: 0 1em 0 1em;
+}
+
+
+/* END OF WORK AREA TAGS */
+
+
+/* START OF TABLE TAGS */
+TABLE
+{
+	font-size: 100%;	/* eod - ie8 fix - was xx-small - march 2012 */
+	font-family:MS Sans Serif;
+}
+
+TH
+{
+	background-color:#142062;
+	color:White;
+	font-weight:bold;
+}
+
+/*This tag is a copy of the TH tag and is used for ASP Tables.*/
+.TH
+{
+	background-color:#142062;
+	color:White;
+	font-weight:bold;
+}
+
+.redRow
+{
+	background-color:#ffcece;
+}
+.redRow IMG
+{
+	background-color:White;
+}
+
+.amberRow
+{
+	background-color:#ffe6c8;
+}
+
+.greenRow
+{
+	background-color:#e6ffe6;
+}
+
+.recordNavigationRow
+{
+	color:White;
+	background-color:#142062;
+	height:16px;
+}
+
+.recordNavigationLeft
+{
+	float:left;
+	width:15%;
+	text-align:left;
+	height:16px;
+	background-color:#142062;
+}
+
+.recordNavigationCenter
+{
+	float:left;
+	width:69%;
+	text-align:center;
+}
+
+.recordNavigationRight
+{
+	float:right;
+	width:15%;
+	text-align:right;
+	height:16px;
+	background-color:#142062;
+}
+
+.recordNavigationLeft A
+{
+	color:White;
+}
+
+.recordNavigationCenter SPAN
+{
+	background-color:#142062;
+	color:White;
+	height:16px;
+}
+
+.recordNavigationRight A
+{
+	color:White;
+}
+
+.resultsPanel
+{
+	width:900px;
+	background-color:White;
+	padding-bottom:10px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.searchControlPanel
+{
+	background-color:White;
+	padding-top:10px;
+	padding-left:12px;
+	padding-bottom:15px;
+	padding-right:15px;
+	height:290px;
+	margin-left:135px;
+	float:none;
+}
+#itemTable
+{
+	width:98%;
+}
+/* END OF TABLE TAGS */
+
+
+/* START OF CONTROL TABLE TAGS */
+.controlRow
+{
+	height:20px;
+	font-size: 100%;	/* eod - ie8 fix - was xx-small - march 2012 */
+	margin-top: 0.25em;
+}
+
+.controlRowColumn1Only
+{
+	float:left;
+	width:100%;
+}
+
+.controlRowColumn1Of4
+{
+	
+	width:19%;
+	font-weight:bold;
+	text-align:left;
+	vertical-align:middle;
+}
+
+.controlRowColumn2Of4
+{
+	float:left;
+	width:33%;
+	text-align:left;
+	vertical-align:middle;
+}
+
+.controlRowColumn3Of4
+{
+	float:left;
+	width:21%;
+	font-weight:bold;
+	text-align:left;
+	vertical-align:middle;
+}
+
+.controlRowColumn4Of4
+{
+	float:left;
+	width:26%;
+	text-align:left;
+	vertical-align:middle;
+}
+
+.controlRowColumn234Of4
+{
+	float:left;
+	width:77%;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.controlRowColumn1Of3
+{
+	float:left;
+	width:10%;
+	vertical-align:middle;
+}
+
+.controlRowColumn2Of3
+{
+	float:left;
+	width:64%;
+}
+
+.controlRowColumn3Of3
+{
+	float:right;
+	width:24%;
+	vertical-align:middle;
+}
+
+.controlRowColumn23Of3
+{
+	float:right;
+	height:100%;
+}
+
+.controlRowButtons
+{
+	padding-top:10px;
+	font-size: 100%;	/* eod - ie8 fix - was xx-small - march 2012 */
+}
+
+.jQueryPopulatedDropdowns
+{
+	width:80%;
+}
+/* END OF CONTROL TABLE TAGS */
+
+
+/* START OF LOGIN TAGS*/ 
+.loginDialog
+{
+	text-align:center;
+	padding-top:50px;
+}
+
+.loginDialogRow
+{
+	height:30px;
+	color:#142062;
+}
+
+.loginDialogRowButtonsColumn
+{
+	text-align:center;
+}
+/* END OF LOGIN TAGS*/
+
+
+/* START OF BUTTON TAGS */
+.button
+{
+	border:1px solid #DBDAA1; 
+	background-color:#FFFECE; 
+	cursor:default;
+	margin-bottom:1px;
+}
+
+.buttonMouseOver
+{ 
+	border-top:1px solid #F7CB00;
+	border-bottom:2px solid #F7CB00;
+	border-left:1px solid #F7CB00;
+	border-right:1px solid #F7CB00;
+	margin-bottom:0px;
+}
+/* END OF BUTTON TAGS */
+
+
+/* START OF CONFIRMATION TAGS */
+.confirmationMessage
+{
+	padding-top:30px;
+	text-align:center;
+	border:3px dashed #143F6A;
+}
+
+.selectedEntryText
+{
+	font-weight:bold;
+}
+/* END OF CONFIRMATION TAGS */
+
+
+
+/* VALIDATION TAGS */
+.summary
+{
+	font-size: 100%;	/* eod - ie8 fix - was xx-small - march 2012 */
+}
+/* END VALIDATION TAGS*/
+
+
+/* START OF POPUP CALENDAR STYLES */
+.PopupCalendarBackground
+{
+	background-color:White;
+	font-size: 100%;	/* eod - ie8 fix - was xx-small - march 2012 */
+}
+
+.PopupCalendarHeader
+{
+	background-color:#142062;
+	color:White;
+	font-size: 100%;	/* eod - ie8 fix - was xx-small - march 2012 */
+}
+
+.PopupCalendarDayLabels
+{
+	background-color:#3c6882;
+	color:White;
+	font-size: 100%;	/* eod - ie8 fix - was xx-small - march 2012 */
+	font-weight:bold;
+}
+
+.PopupCalendarDay
+{
+	background-color:White;
+	color:Black;
+	font-size: 100%;	/* eod - ie8 fix - was xx-small - march 2012 */
+}
+
+.PopupCalendarDaySelected
+{
+	background-color:Gray;
+	color:White;
+	font-size: 100%;	/* eod - ie8 fix - was xx-small - march 2012 */
+}
+/* END OF POPUP CALENDAR STYLES */
+
+#test
+{
+	display:inline-block;}
+	
+.viewable
+{
+	background-color: #F0F7F9;
+	cursor:pointer;	
+}
+
+.searchCriteria
+{
+	padding:0;
+	width:auto;
+}
+
+.multiField
+{
+	padding:0 0 0.5em 0.5em;
+	display:inline;
+	width:350px;
+}
+
+.multiField label
+{
+	display: inline-block;
+	width: 125px;
+}
+
+.labelItem label
+{
+	display: inline-block;
+	width: 18.75%;
+}
+
+
+
+
+	
+	
