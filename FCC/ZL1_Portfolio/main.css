@@ -11,17 +11,18 @@
 }
 
 .jumbotron {
-  height: 800px;
+ 
   background-repeat: no-repeat;
   background-size: cover;
 }
-.jumbotron.home{
+.jumbotron#home{
+   height: 700px;
   background-image:url('https://blog.getkisi.com/wp-content/uploads/2015/03/interesting-office-designs-white.jpg');
 }
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top:10px;
 }
 
 .jumbotron h1 {
@@ -38,6 +39,7 @@
 
 .portfolio {
   background-color: #ffffff;
+  margin-bottom: 5px;
 }
 
 .home h3 {
@@ -50,6 +52,10 @@
   color: #00b0ff;
 }
 
+.contact{
+  height: 745px;
+}
+
 .contact h2 {
   font-size: 4em;
   padding: 2em;
@@ -59,8 +65,6 @@
 .contact.row{
   padding-bottom: 3em;
 }
-
-
 
 .vertical-center{
   display: flex;
@@ -73,12 +77,13 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-top: 25px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
-.header{
+.header {
   top:0;
   width:100%;
   height: 25px;
@@ -89,14 +94,14 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 30px;
   background-color: #f5f5f5;
 }
 
-#faded {
+#contact {
    position: relative;
 }
-#faded:after {
+#contact:after {
     content : "";
     display: block;
     position: absolute;
@@ -111,6 +116,6 @@ body {
     z-index: -1;
 }
 
-.jumbotron .portfolio{
+.portfolio.container{
   margin-bottom: 50px;
 }
