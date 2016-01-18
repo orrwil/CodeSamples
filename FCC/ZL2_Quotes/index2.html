@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    div {
+        height: 60px;
+        width: 100px;
+        border-radius: 5px;
+        background-color: #69D2E7;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: Verdana, Arial, Sans-Serif;
+        opacity:0.5;        
+    }
+  </style>  
+  <script type='text/javascript' src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("div").mouseenter(function(){
+        $("div").fadeTo("fast", 1);
+      });
+      $("div").mouseleave(function(){
+        $(this).fadeTo("fast", 0.2);
+      });
+    });
+  </script>
+</head>
+
+<body>
+    <div><br><strong>Click Me!</strong></div>  
+</body>
