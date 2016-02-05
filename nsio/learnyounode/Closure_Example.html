@@ -1,0 +1,58 @@
+<div id="testSubject"></div>
+<div id="container_2"></div>
+<button type="button" id="testButton" style="rotate">Go!</button>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery('#testButton').click(function(){  // 1
+		var elem$ = jQuery("#testSubject");  // 2
+		elem$.html("Loading...");			 // 3
+		jQuery.ajax({
+			url: "test.html",
+			success: function(html){
+				assert(elem$,				 // 4
+					"We can see elem$, via the closure for this callback.");
+			elem$.html(html);
+			}
+		});
+	});
+</script>
+<style>
+	.rotate
+	{
+		-webkit-transition-duration: 0.8s;
+		-moz-transition-duration: 0.8s;
+		-o-transition-duration: 0.8s;
+		transition-duration: 0.8s;
+		
+		-webkit-transition-property: -webkit-transform;
+		-moz-transition-property: -moz-transform;
+		-o-transition-property: -o-transform;
+		transition-property: transform;
+		
+		overflow:hidden;
+		
+	}  
+	.rotate:hover  
+	{
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+	}
+	
+	#container_2 
+	{
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	}
+
+	#container_2.rotate:hover{ 
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	}
+</style>
+
+
