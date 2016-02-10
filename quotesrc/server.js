@@ -3,6 +3,11 @@ var express = require('express'),
 
 var app = express();
 
+app.configure(function () {
+    app.use(express.logger('dev'));     /* 'default', 'short', 'tiny', 'dev' */
+    app.use(express.bodyParser());
+});
+
 app.get('/quotes', quote.findAll);
 app.get('/quotes/:id', quote.findById);
 app.post('/quotes', quote.addQuote);

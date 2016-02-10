@@ -1,8 +1,10 @@
-var mongo = require('mongodb');
+var mongo = require('mongodb'),
+    bson = require('bson');
+
 
 var Server = mongo.Server,
     Db = mongo.Db,
-    BSON = mongo.BSONPure;
+    BSON = bson.BSONPure;
 
 var server = new Server('localhost', 27017, {auto_reconnect: true});
 var db = new Db('quotedb', server);
