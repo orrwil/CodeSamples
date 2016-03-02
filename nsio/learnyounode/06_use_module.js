@@ -5,6 +5,11 @@ var f = process.argv[3];
 
 mymodule (p, f, function(err, list){
 	if (err) throw err;
-	console.log(list);
+	else {
+		for (var x in list) {
+			console.log(list[x]);
+		}	
+	}
+	
 });
 	
